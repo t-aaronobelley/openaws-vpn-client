@@ -32,19 +32,12 @@ with import <nixpkgs> {
 
   meta = with lib; {
     description = "Unofficial open-source AWS VPN client written in Rust";
-    homepage = "https://github.com/JonathanxD/opensaws-vpn-client";
+    homepage = "https://github.com/t-aaronobelley/opensaws-vpn-client";
     license = licenses.mit;
     maintainers = with maintainers; [
       {
-        name = "Jonathan H. R. Lopes";
-        github = "JonathanxD";
-        githubId = 5360060;
-        matrix = "@jonathanhrl:matrix.org";
-        email = "joniweb01@gmail.com";
-        keys = [{
-            longkeyid = "rsa3072/0x4DF5FC43FD4FE9CC";
-            fingerprint = "B2C2 7303 C091 E72F C62A  AB69 4DF5 FC43 FD4F E9CC";
-        }];
+        name = "Theodosia Aaron-Obelley";
+        github = "t-aaronobelley";
       }
     ];
   };
